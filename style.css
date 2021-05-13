@@ -1,0 +1,42 @@
+/* Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+/* Global styles*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  font-family: 'Libre Franklin', sans-serif;
+  color: rgb(53, 21, 238);
+  font-size: 2rem;
+}
+main{
+  display: grid;
+  place-items: center;
+}
+.container{
+  padding-top: 20%;
+}
+span{
+  align-items: center;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.btn{
+padding: 1rem 1rem;
+background-color: salmon;
+cursor: pointer;
+box-shadow: silver;
+margin: 0.5rem;
+border-radius: 20rem;
+font-size: 1.5rem;
+}
+
+.btn:hover{
+background-color: rgb(114, 250, 114);
+
+}
